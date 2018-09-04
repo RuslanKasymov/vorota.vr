@@ -148,8 +148,8 @@ body {
     width: 100%;
 
 }
-.t_-13rem{
-    top: -13rem;
+.t_-20rem{
+    top: -20.5rem;
 }
 .request{
     padding: 2.47rem 0;
@@ -188,9 +188,22 @@ body {
 @keyframes draw {
     100% { stroke-dashoffset: 0; }
 }
-
-
-
+.dost-link{
+    font-size: 1rem;
+}
+.dost-link a{
+    cursor: pointer;
+    text-decoration: underline #333 !important;
+}
+.modal-body{
+    font-size: 1rem;
+}
+.tr-com{
+    display: flex;
+}
+.modal-content{
+    border: 3px solid #cb0100;
+}
 @media screen and (max-width: 1200px){
 
 }
