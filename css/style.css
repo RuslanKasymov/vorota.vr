@@ -84,7 +84,7 @@ body {
 }
 .f_f-c{
     font-family: Calibri;
-    font-size: 18px;
+    font-size: 22px;
 }
 .images{
     display: flex;
@@ -102,6 +102,7 @@ body {
     padding: 1rem;
     border: 3px solid #cb0100;
     border-radius: 1rem;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .form-title{
     font-size: 24px;
@@ -203,6 +204,13 @@ body {
 }
 .modal-content{
     border: 3px solid #cb0100;
+}
+.err{
+    color: #cb0100;
+    display: none;
+    font-size: 0.75rem;
+    position: absolute;
+    margin-top: -1rem;
 }
 @media screen and (max-width: 1200px){
 
