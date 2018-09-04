@@ -213,24 +213,94 @@ body {
     margin-top: -1rem;
 }
 @media screen and (max-width: 1200px){
-
+    .title{
+        font-size: 1.75rem;
+    }
+    .wrapper{
+        height: auto;
+        font-size: 1rem;
+    }
+    .t_-20rem{
+        top: -23rem;
+    }
+    .f_f-c {
+        font-size: 18px;
+    }
+    .h-lg-420{
+        height: 420px;
+    }
+    .form label{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 992px){
-
+    .t_-20rem{
+        top: 0;
+    }
+    .h-lg-420{
+        height: auto;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .header-text, .address{
+        font-size: 0.75rem;
+    }
+    .header-bg {
+        height: 6rem;
+    }
+    .images {
+        margin: 1rem 0 1rem 0;
+    }
 }
 @media screen and (max-width: 768px){
-
+    .title{
+        font-size: 1.55rem;
+    }
+    .assort{
+        font-size: 0.85rem;
+    }
+    .f_f-c {
+        font-size: 16px;
+    }
+    .header-bg {
+        background-size: auto;
+    }
 }
 @media screen and (max-width: 575px){
-
+    .header-bg {
+        height: auto;
+        background: linear-gradient(to right, #850000,#cb0100);
+    }
+    .header-text, .address, .tel{
+        font-size: 1rem;
+        display: block;
+        float: none;
+    }
 }
 @media screen and (max-width: 500px){
-
+    .img {
+        width: 12%;
+    }
+    .images img {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 460px){
+    .header-text{
+        padding: 0;
+    }
 
+    .tr-com{
+        flex-wrap: wrap;
+    }
 }
 @media screen and (max-width: 320px){
-
+    .img {
+        width: 40%;
+    }
+    .images{
+        flex-wrap: wrap;
+    }
 }
 
